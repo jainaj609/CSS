@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://plus.unsplash.com/premium_photo-1661266884360-028764df3128?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    min-height: 2174px;
+    min-width: min-content;
+    max-height: 2511px;
+    border: 14px groove greenyellow;
+}
+
+.parent1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 20px;
+}
+
+.item {
+    display: flex;
+}
+
+.child {
+    background-color: black;
+    border: 9px solid red;
+    border-radius: 41px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+}
+
+#child1 {
+    height: 120px;
+    width: 349px;
+    padding: 20px 20px 0px 20px;
+    font-size: 32.5px;
+
+}
+
+#child2 {
+    position: absolute;
+    height: 50px;
+    width: 425px;
+    font-size: 31px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 65px;
+    top: 50px;
+    left: 285px;
+
+}
+
+#child3 {
+    height: 120px;
+    width: 349px;
+    padding: 20px 20px 0px 20px;
+    font-size: 21.5px;
+    line-height: 2;
+}
+
+.circle {
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-top: 321px;
+    box-sizing: border-box;
+    padding-top: 54px;
+    height: 415px;
+    width: 415px;
+    background-color: rgb(27, 182, 143);
+    text-align: center;
+    font-size: 23px;
+    text-decoration: underline;
+    font-weight: bold;
+    border: 10px solid gray;
+    border-radius: 50%;
+}
+
+.first {
+    padding-top: 20px;
+
+}
+
+hr {
+    color: lightgray;
+}
+
+.form {
+    margin-top: 100px;
+    width: 400px;
+    color: red;
+    background-color: white;
+    border: 8px dashed red;
+    text-align: center;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+
+.names,
+.formheading {
+    color: rgb(158, 79, 79);
+}
+
+.names {
+    font-size: larger;
+}
+
+.menu {
+    margin: auto;
+    margin-top: 50px;
+    background-color: black;
+    border: 9px solid red;
+    border-radius: 41px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    height: 50px;
+    width: 425px;
+    font-size: 31px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 65px;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    height: 350px;
+    width: 350px;
+    color: rgb(34, 0, 128);
+    background-color: aqua;
+    border: 5px solid green;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+.box6 {
+    height: 400px;
+
+}
+
+ul {
+    font-size: 20px;
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(34, 0, 128);
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 5em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+.blue {
+    font-size: 42px;
+    text-align: center;
+
+}

@@ -1,0 +1,138 @@
+.fa-thin {
+    content: "\f0a8";
+    font-size: 160px;
+    color: #858585;
+    font-weight: 1000;
+}
+
+.new {
+    color: #858585;
+    font-weight: 1000;
+}
+
+.fa-duotone {
+    font-weight: 1000;
+    font-size: 40px;
+    color: #858585;
+}
+.fa-solid::before {
+    font-size: 40px;
+}
+
+.addtask1 {
+    margin: auto;
+    height: 140px;
+    min-width: none;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    gap: 1em;
+}
+
+.parent-wrapper {
+    width: 500px;
+    height: 640px;
+    margin: auto;
+}
+
+.boxhead {
+    color: #00A5EC;
+    font-weight: 500;
+    font-size: 21.5px;
+    text-align: center;
+}
+
+.child1 {
+    height: 338px;
+    width: 500px;
+    border: 1px solid #67676729;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.child-d {
+    box-sizing: border-box;
+    height: 72px;
+    width: 464px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    gap: 45.02px;
+}
+
+.items {
+    width: 464px;
+}
+
+.space {
+    margin-left: 12px;
+}
+
+.makecenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+    .parent-wrapper {
+        width: 300px;
+    }
+    .child1 {
+        width: 280px;
+        height: 300px;
+        margin: auto;
+    }
+
+    .remove {
+        display: none;
+    }
+
+    .addtask1 {
+        max-width: 280px;
+        font-size: 18px;
+        justify-content: flex-start;
+        gap: 52px;
+        font-size: 14px;
+    }
+
+    .makecenter div span {
+        margin-left: 5px;
+    }
+
+    .new::before {
+        color: #424242;
+    }
+
+    .fa-solid::before {
+        font-size: 30px;
+    }
+
+    .child-d {
+        width: 245px;
+    }
+
+    .items {
+        width: 240px;
+    }
+
+    .wrapper {
+        gap: 20.02px;
+    }
+    .divclass1:hover .fa-solid::before{
+        height: 30px;
+        width: 30px;
+        border: 1px solid white;
+        border-radius: 50%;
+        outline: 2px solid #424242;
+        box-sizing: border-box;
+    }
+}

@@ -1,0 +1,62 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    color: red;
+    font-style: italic;
+}
+.mark{
+    background-color: yellow;
+}
+.del{
+    text-decoration: line-through;
+}
+.italic{
+    font-style: italic;
+    text-decoration: underline;
+}
+.orderlist {
+    color: rgb(126, 56, 56);
+    line-height: 45px;
+    font-size: larger;
+}
+
+.unorderdlist {
+    color: rgb(126, 56, 56);
+    font-family: serif;
+    font-size: larger;
+    letter-spacing: 5px;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+    font-style: italic;
+    text-decoration: none;
+    background-color: yellow;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+    font-style: italic;
+    text-decoration: none;
+    background-color: yellow;
+}
+
+p {
+    color: #995727;
+    font-size: 18px;
+}
+
+/* mouse over link 
+a:hover {
+    color: red;
+}
+
+/* selected link 
+a:active {
+    color: yellow;
+}
+*/

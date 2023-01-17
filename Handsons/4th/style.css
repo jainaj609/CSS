@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:105%;
+}
+.parent-container{
+    width: 1280px;
+}
+.heading {
+    text-align: center;
+    height: 25px;
+    width: 1280px;
+    background-image: linear-gradient(to right, red 12.1%, green 22.1%, yellow);
+    background-repeat: no-repeat;
+    font-size: x-large;
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+.navbar {
+    width: 60vw;
+    height: 55px;
+    margin: 10px auto;
+    border: 3px solid rgb(177, 36, 36);
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgba(127, 208, 255, 0.431);
+
+}
+
+ul {
+    list-style: none;
+    height: 50px;
+    width: 13vw;
+    margin: 3px auto;
+}
+
+ul li::before {
+    content: "\2022";
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 5em;
+}
+
+.container1 {
+    /* height: 120px; */
+    width: 1280px;
+    border: 1px solid rgb(177, 36, 36);
+    border-radius: 15px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.box {
+    /* height: 55px; */
+    width: 30vw;
+    font-weight: 600;
+    background-color: aqua;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+.box4 {
+    margin-top: -2px;
+    margin-bottom: 1px;
+}
+
+.hrline {
+    height: 0px;
+}
+
+.middlenav {
+    margin: 20px 0px;
+    text-align: center;
+    height: 35px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.773), yellow, rgba(255, 0, 0, 0.773));
+    background-repeat: no-repeat;
+    font-weight: 1000;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.container2 {
+    /* height: 35vh; */
+    width: 1280px;
+    height: 250.25px;
+    border: 3px solid green;
+    background-image: radial-gradient(ellipse, rgb(82, 123, 247) 7.21%, rgb(55, 183, 43) 132.21%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.b {
+    height: 15vh;
+    width: 15vw;
+    border: 3px solid red;
+    border-radius: 20px;
+    background-color: yellow;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(146, 45, 45);
+    font-weight: 600;
+
+}
+
+.grid-container {
+    /* height: 40vh; */
+    width: 1280px;
+    margin: 35px 0px;
+    border: 1px solid black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    gap: 14px;
+}
+
+.whiteline {
+    color: white;
+}
+
+.gb1 {
+    height: 3vw;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    background-color: rgb(230, 73, 73);
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+}
+.gb2, .gb3, .gb4{
+    height: 5.2vw;
+
+}
+.gb2 {
+    /* grid-column: 1/5;
+    grid-row: 1/5; */
+    background-color: rgba(23, 209, 23, 0.709);
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.gb3 {
+    background-color: #0064ffbf;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+.gb4 {
+    background-color: #5e43df;
+    grid-column: auto;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+ol{
+    list-style: none;
+}
+.gb5 {
+    width: 5.3vw;
+    background-color: #0c0c37c7;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    font-size: large;
+}
+
+.gb6 {
+    height: 11vw;
+    background-color: #ff720ebf;
+    grid-column: 1/4;
+    /* grid-row: 3/4; */
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.gb7 {
+    height: 1.7vw;
+    grid-column: 1/5;
+    grid-row: 4/5;
+    background-color: rgb(44, 204, 204);
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+}

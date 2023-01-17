@@ -1,0 +1,84 @@
+/* popup styling */
+.filter {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.popup {
+    width: 500px;
+    height: 250px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #67676729;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.boxheading {
+    color: #404040;
+    font-weight: 500;
+    font-size: 22.5px;
+}
+
+.child-a1 {
+    box-sizing: border-box;
+    height: 54px;
+    width: 460px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newtask {
+    height: 40px;
+    width: 460px;
+    margin: auto;
+    border: 1px solid #EDEDED;
+    background-color: #F7F7F7;
+    padding-left: 15px;
+}
+
+.child-b1 {
+    height: 164px;
+    width: 460px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.fa-duotone {
+    font-family: "Font Awesome 5 Free";
+    content: "\58\58";
+    font-weight: 1000;
+    font-size: 20px;
+    color: #858585;
+}
+
+.color {
+    transform: rotate(0.5turn);
+
+}
+
+.button {
+    float: right;
+    height: 48px;
+    width: 180px;
+    font-size: larger;
+    background-color: #00A5EC;
+    border: 1px solid #00A5EC;
+    border-radius: 4px;
+    color: white;
+    font-weight: 200;
+}

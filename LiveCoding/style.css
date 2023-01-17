@@ -1,0 +1,92 @@
+/* *{
+    margin: 0;
+} */
+.container {
+    height: 110vh;
+    background-color: rgba(221, 160, 221, 0.695);
+    /* position: relative; */
+}
+
+header {
+    height: 130px;
+    width: 1254.5px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(127, 229, 255, 0.585);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    height: 40px;
+    width: 229px;
+    padding-top: 5px;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 5px;
+    color: white;
+    font-size: 38px;
+    background-color: rgba(0, 0, 255, 0.409);
+}
+
+.navbar {
+    margin: 10px 10px 0px 10px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+a {
+    color: purple;
+}
+
+.container1 {
+    margin: 0px 10px;
+    height: 60vh;
+    display: flex;
+    gap: 10px;
+}
+
+aside {
+    height: 60vh;
+    width: 25vw;
+    background-color: rgba(127, 229, 255, 0.585);
+
+}
+
+.side {
+    width: 19vw;
+    margin: auto;
+
+}
+
+.image {
+    height: 60vh;
+    width: 71vw;
+    background-image: url(../Handsons/6th/imgaes/shara\ desert.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.head {
+    font-weight: 600;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

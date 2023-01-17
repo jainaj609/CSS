@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: cornsilk;
+    color: lawngreen;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+   height: 50px;
+   width: 50px;
+    background-image: linear-gradient(purple,red);
+    /* background-color: darkseagreen; */
+    border-radius: 50%;
+
+}
+
+li {
+    display: inline-block;
+}

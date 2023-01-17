@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    /* background-color: rgba(173, 216, 230, 0.528); */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgba(173, 216, 230, 0.504);
+
+}
+
+.img {
+    height: 80px;
+    width: 80px;
+    background-image: url(../images/halpin.svg);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+    border-radius:50%;
+
+}
+
+.links {
+    display: flex;
+
+}
+
+a {
+    color: "brandon-grotesque", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+
+}
+
+/* unvisited link */
+a:link {
+    color: #45b29a;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: #21564b;
+}
+
+/* selected link */
+a:active {
+    color: #45b29a;
+}
+h1{
+    font-size: 72px;
+    font-family: 'Sevillana', cursive;
+    color: #45b29a;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    color: #45b29a;
+}
+.parent{
+    height: 700px;
+   background-color: #e0ebe8;
+   text-align: center;
+}
+.image{
+    height: 400px;
+    background-image: url(https://web.archive.org/web/20180831175228/http://seanhalpin.io/assets/img/content/home/masthead/land.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin: auto;
+    
+}

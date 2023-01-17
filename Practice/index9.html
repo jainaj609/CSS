@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+    <style>
+        /* .form-control {
+            font-family: system-ui, sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 1.1;
+            display: grid;
+            grid-template-columns: 1em auto;
+            gap: 0.5em;
+        } */
+
+        /* input[type="checkbox"] { */
+        /* Add if not using autoprefixer */
+        /* -webkit-appearance: none; */
+        /* For iOS < 15 to remove gradient background */
+        /* background-color: #fff; */
+        /* Not removed via appearance */
+        /* margin: 0; */
+        /* } */
+
+
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+        }
+
+        input[type="checkbox"] {
+            appearance: none;
+            height: 30px;
+            width: 30px;
+            background-color: #F7F7F7;
+            border-radius: 5px;
+            /* cursor: pointer; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            outline: none;
+        }
+
+        .form-control {
+            font-size: larger;
+            /* cursor: pointer; */
+        }
+
+        input[type="checkbox"]:after {
+            font-family: "Font Awesome 5 Free";
+            content: "\f00c";
+            font-weight: 1000;
+            font-size: 16px;
+            color: white;
+            display: none;
+        }
+        input[type="checkbox"]:hover{
+            background-color: #EDEDED;
+        }
+        input[type="checkbox"]:checked{
+            background-color: #C2C2C2;
+        }
+        input[type="checkbox"]:checked:after{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <input type="checkbox" name="checkbox" id="check"/>
+        <label for="check" class="form-control">Checkbox</label>
+    </div>
+    <div class="wrapper">
+        <input type="checkbox" name="checkbox-checked" checked id="check1"/>
+        <label for="check1" class="form-control">Checkbox - checked</label>
+    </div>
+
+</body>
+
+</html>

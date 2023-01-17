@@ -1,0 +1,17 @@
+.container{
+    background-image: url(../images/images.jpg),url(../images/images.jpg);
+    /* background-size: 500px 400px, 600px contain; */
+    background-size: 500px 400px, 600px 500px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.parent{
+    font-size: 10px;
+}
+.em1{
+    font-size: 2em;
+}
+.rm1{
+    font-size: 2rem;
+
+}
