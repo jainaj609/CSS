@@ -1,0 +1,156 @@
+body {
+    background-color: rgba(255, 255, 0, 0.584);
+}
+
+.heading {
+    /* margin: 0px auto; */
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    /* margin: 80px auto; */
+}
+
+.ch1,
+.ch2,
+.ch3,
+.ch4 {
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.ch {
+    margin-top: 105px;
+}
+
+.ch1,
+.ch3 {
+    background-color: rgba(33, 111, 157, 0.79);
+}
+
+.ch2 {
+    background-color: rgba(0, 0, 255, 0.328);
+}
+
+.ch4-2 {
+    border: 3px solid rgba(33, 111, 157, 0.79);
+    background-color: rgba(33, 111, 157, 0.79);
+}
+
+.ch4-3 {
+    border: 3px solid rgba(157, 33, 33, 0.79);
+    background-color: rgba(157, 33, 33, 0.79);
+}
+
+.ch4-4 {
+    border: 3px solid rgba(42, 113, 39, 0.7);
+    background-color: rgba(42, 113, 39, 0.7);
+}
+
+.link {
+    font-size: xx-large;
+    color: #490e6a;
+}
+
+.ch1 {
+    animation: first 3s infinite linear alternate;
+}
+
+@keyframes first {
+    0% {
+        transform: skew(-30deg);
+    }
+
+    100% {
+        transform: skew(30deg);
+    }
+}
+
+.ch2 {
+    animation: second 2s infinite ease alternate;
+}
+
+@keyframes second {
+    0% {
+        transform: skewY(-30deg);
+    }
+
+    100% {
+        transform: skewY(30deg);
+    }
+}
+
+.ch3 {
+    /* animation-name: third;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+    animation: third 3s ease infinite alternate;
+}
+
+@keyframes third {
+
+    0% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.ch4-2{
+    animation: scaley 2s ease infinite alternate ;
+}
+@keyframes scaley {
+    0% {
+        transform: scaleY(0.6);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+.ch4-3{
+    animation: scalex 2s ease infinite alternate ;
+}
+@keyframes scalex {
+    0% {
+        transform: scaleX(0.3);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+.ch4-4{
+    animation: rotate 2s ease infinite alternate ;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
+    }
+}

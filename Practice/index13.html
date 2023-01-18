@@ -17,20 +17,82 @@
             justify-content: center;
             align-items: center;
         }
-         .child{
+
+        .parent1 {
+            width: 100%;
+            height: 100vh;
+            box-sizing: border-box;
+            border: 15px groove green;
+            position: relative;
+        }
+
+        .child {
             height: 200px;
             width: 200px;
             border: 5px double purple;
-         }
+        }
+
+
+        .ch {
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            border: 5px double purple;
+        }
+
+        .ch1 {
+            z-index: 0;
+        }
+
+        .ch2 {
+            z-index: 0;
+            top: 20px;
+            left: 20px;
+
+        }
+
+        .ch3 {
+            z-index: 1;
+            top: 40px;
+            left: 40px;
+
+        }
+
+        .ch4 {
+            z-index: 2;
+            top: 60px;
+            left: 60px;
+
+        }
+
+        .ch5 {
+            z-index: 3;
+            top: 80;
+            left: 80;
+        }
     </style>
 </head>
 
 <body>
     <div class="parent">
+
+        <p>
+            Justify-content allows you to do what?<br>
+            Place one box in the center of the page
+        <p>
+
         <div class="child child1"></div>
         <div class="child child2"></div>
         <div class="child child3"></div>
         <div class="child child4"></div>
+    </div>
+    <div class="parent1">
+        <div class="ch ch1">1st</div>
+        <div class="ch ch2">2nd</div>
+        <div class="ch ch3">3rd</div>
+        <div class="ch ch4">4th</div>
+        <div class="ch ch5">Q.What is the z-index in CSS?</div>
+
     </div>
 </body>
 
